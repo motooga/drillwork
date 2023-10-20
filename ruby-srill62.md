@@ -192,12 +192,13 @@ end
 - caluculate_fuel_comsumptionと新たなメソッドを作成して処理を書く方が良い
 - その時に(car, distance)を引数で渡すようにする
 - roundの使い方
+  
 ```ruby
-  数字.round(小数点以下の桁数)
-  1.111.round => 1
-  1.111.round(2) => 1.11
-  1.111.round(1) => 1.1
-  2.5.round(half: :up)   # => 3
+数字.round(小数点以下の桁数)
+1.111.round => 1
+1.111.round(2) => 1.11
+1.111.round(1) => 1.1
+2.5.round(half: :up)   # => 3
 2.5.round(half: :even) # => 2
 2.5.round(half: :down) # => 2
 3.5.round(half: :up)   # => 4
