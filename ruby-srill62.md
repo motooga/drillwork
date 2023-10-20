@@ -191,4 +191,21 @@ end
 - [1]の処理に追加するのに[0]の処理に追加してしまった
 - caluculate_fuel_comsumptionと新たなメソッドを作成して処理を書く方が良い
 - その時に(car, distance)を引数で渡すようにする
+- roundの使い方
+  数字.round(小数点以下の桁数)
+  1.111.round => 1
+  1.111.round(2) => 1.11
+  1.111.round(1) => 1.1
+  2.5.round(half: :up)   # => 3
+2.5.round(half: :even) # => 2
+2.5.round(half: :down) # => 2
+3.5.round(half: :up)   # => 4
+3.5.round(half: :even) # => 4
+3.5.round(half: :down) # => 3
+t = Math::PI # => 3.141592653589793
+t.round(3)   # => 3.142
+t.round(0)   # => 3
+t.round(1)   # => 3.1
+    
+  
 
