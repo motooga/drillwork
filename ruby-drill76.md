@@ -38,3 +38,7 @@ text_transform("hello world")
 
 ### レビュー
 upcaseまで続けて処理をひとまとめにした方が、すっきりする。
+- gsubメソッド
+- upcaseメソッド
+覚える
+
