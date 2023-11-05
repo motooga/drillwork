@@ -87,7 +87,7 @@ g に関する解答群
 ```
 
 ### 考察
-
+[![Image from Gyazo](https://i.gyazo.com/ece07134811237633978b85dd289713a.png)](https://gyazo.com/ece07134811237633978b85dd289713a)
 ### 解答
 #### 設問1
 ```
